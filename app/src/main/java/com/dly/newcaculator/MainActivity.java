@@ -315,7 +315,7 @@ public class MainActivity extends Activity {
 
 
         }
-
+        //新添加了括号字符，优先级运算
         public void eval()throws Exception{
             List<String> list=new ArrayList<String>();
             //匹配运算符、括号、整数、小数，注意-和*要加\\
